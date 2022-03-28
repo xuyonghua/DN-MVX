@@ -1,0 +1,6 @@
+include ':modulesPublic:common'
+include ':modulesCore:main'
+include ':modulesBase:libBase'
+include ':modulesBase:libBanner'
+include ':app'
+rootProject.name = "DNPlayer"

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333333">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/toolbar_back_icon_width"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_gravity="bottom"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_actionbar_back" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/toolbar_title_size"
+        tools:text="toolbarTitle" />
+
+    <TextView
+        android:id="@+id/tv_option"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_gravity="right|bottom"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingTop="0.5dp"
+        android:paddingRight="12dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:visibility="gone"
+        tools:text="rightBT"
+        tools:visibility="visible" />
+
+</FrameLayout>
